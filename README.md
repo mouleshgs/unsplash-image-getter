@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Unsplash Image Getter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Unsplash Image Getter** is a simple web application built with **React** that allows users to search for images and set them as the website's background. This application fetches images dynamically from the **Unsplash API** based on the user's search query.
 
-## Available Scripts
+## Features
+- Search for any image using keywords.
+- Dynamically set the image as the background of the website.
+- Built with React for a smooth and interactive experience.
+- Easy-to-use interface with a minimalistic design.
 
-In the project directory, you can run:
+## Tech Stack
+- **React**: JavaScript library for building user interfaces.
+- **Unsplash API**: A powerful API to fetch high-quality images.
+- **CSS**: For styling and making the interface visually appealing.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with the project, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Clone the repository
+Open your terminal and run the following command to clone the repository to your local machine:
+```bash
+git clone https://github.com/mouleshleo/unsplash-image-getter.git
+cd unsplash-image-getter
+```
+### 2. Install Dependencies
+This command will install the dependencies required for the project to run.
+```bash
+npm install
+```
+### 3. Set Your Access Token
+Sign up at [Unsplash Developers](https://unsplash.com/developers) to get your API key.
+Replace the YOUR_API_KEY placeholder in the App.js file with your actual API key.
+```js
+const apiKey = 'YOUR_API_KEY'; // Replace with your Unsplash API key
+```
 
-### `npm test`
+### 4. Start the development server
+```bash
+npm start
+```
+The app will run on http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Directory Structure
+```
+└── unsplash-image-getter/
+    ├── public/
+    │   ├── manifest.json
+    │   ├── index.html
+    │   └── robots.txt
+    ├── package.json
+    ├── package-lock.json
+    ├── README.md
+    └── src/
+        ├── setupTests.js
+        ├── index.css
+        ├── App.js
+        ├── reportWebVitals.js
+        ├── App.css
+        ├── App.test.js
+        └── index.js
+```
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

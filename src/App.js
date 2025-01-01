@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { createApi } from 'unsplash-js';
 
 const unsplash = createApi({
-  accessKey: "rdBq7BtGxXMpMccAZPhk3yqOpMFqAEXHyIUU8PZ4e4s"
+  accessKey: "YOUR_API_KEY"
 });
 
 const PhotoComp = ({ photo }) => {

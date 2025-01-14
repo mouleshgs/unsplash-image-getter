@@ -2,6 +2,9 @@
 
 The **Unsplash Image Getter** is a simple web application built with **React** that allows users to search for images and set them as the website's background. This application fetches images dynamically from the **Unsplash API** based on the user's search query.
 
+![unsplash image getter with search result for "Hello"](https://github.com/user-attachments/assets/b39020dc-e4db-4689-ab5b-f720e089c8bf)
+
+
 ## Features
 - Search for any image using keywords.
 - Dynamically set the image as the background of the website.

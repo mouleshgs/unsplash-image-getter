@@ -12,7 +12,7 @@ The **Unsplash Image Getter** is a simple web application built with **React** t
 - Easy-to-use interface with a minimalistic design.
 
 ## Tech Stack
-- **React**: JavaScript library for building user interfaces.
+- **React**: JavaScript library for building user interfaces and little bit of **"tailwindcss"**.
 - **Unsplash API**: A powerful API to fetch high-quality images.
 - **CSS**: For styling and making the interface visually appealing.
 

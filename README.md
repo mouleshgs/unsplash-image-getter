@@ -23,7 +23,7 @@ To get started with the project, follow these steps:
 ### 1. Clone the repository
 Open your terminal and run the following command to clone the repository to your local machine:
 ```bash
-git clone https://github.com/mouleshleo/unsplash-image-getter.git
+git clone https://github.com/mouleshgs/unsplash-image-getter.git
 cd unsplash-image-getter
 ```
 ### 2. Install Dependencies
